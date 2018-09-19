@@ -8,5 +8,13 @@
     <string name="action_share">Share</string>
 
     <string name="up">Up</string>
+    <string name="decorative_image_no_content">No content available</string>
+    <string name="empty_view_message">Empty</string>
+
+    <string name="share_article">Article</string>
+    <string name="share_message">Message</string>
+    <string name="share_title">Title</string>
+    <string name="by_author">By Author Name</string>
+
 
 </resources>

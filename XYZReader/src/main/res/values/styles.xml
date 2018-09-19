@@ -18,11 +18,31 @@
 <resources>
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.Bacon.Detail" parent="Theme.Bacon">
+        <item name="android:statusBarColor">@android:color/transparent</item>
 
     </style>
 
-    <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+    <style name="ArticleTitle" parent="@android:style/Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="ArticleTitleWhite" parent="@android:style/Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/whiteText</item>
+    </style>
+
+    <style name="ArticleSubtitle" parent="@android:style/Widget.TextView">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/ltpearl</item>
     </style>
 
 </resources>
